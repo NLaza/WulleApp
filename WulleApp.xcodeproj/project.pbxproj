@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534F4E651E4CF98400894168 /* lügenwulle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 534F4E641E4CF98400894168 /* lügenwulle.jpg */; };
+		534F4E671E4CFB6400894168 /* wullopinio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 534F4E661E4CFB6400894168 /* wullopinio.jpg */; };
+		53D2FD5C1E4CBE5C0084CA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2FD5B1E4CBE5C0084CA25 /* AppDelegate.swift */; };
+		53D2FD5E1E4CBE5C0084CA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2FD5D1E4CBE5C0084CA25 /* ViewController.swift */; };
+		53D2FD611E4CBE5C0084CA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D2FD5F1E4CBE5C0084CA25 /* Main.storyboard */; };
+		53D2FD631E4CBE5C0084CA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D2FD621E4CBE5C0084CA25 /* Assets.xcassets */; };
+		53D2FD661E4CBE5C0084CA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D2FD641E4CBE5C0084CA25 /* LaunchScreen.storyboard */; };
+		53D2FD711E4CBE5C0084CA25 /* WulleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2FD701E4CBE5C0084CA25 /* WulleAppTests.swift */; };
+		53D2FD7C1E4CBE5C0084CA25 /* WulleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2FD7B1E4CBE5C0084CA25 /* WulleAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D2FD6D1E4CBE5C0084CA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D2FD501E4CBE5B0084CA25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D2FD571E4CBE5B0084CA25;
+			remoteInfo = WulleApp;
+		};
+		53D2FD781E4CBE5C0084CA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D2FD501E4CBE5B0084CA25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D2FD571E4CBE5B0084CA25;
+			remoteInfo = WulleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		534F4E641E4CF98400894168 /* lügenwulle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lügenwulle.jpg"; sourceTree = "<group>"; };
+		534F4E661E4CFB6400894168 /* wullopinio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wullopinio.jpg; sourceTree = "<group>"; };
+		53D2FD581E4CBE5C0084CA25 /* WulleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WulleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2FD5B1E4CBE5C0084CA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D2FD5D1E4CBE5C0084CA25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53D2FD601E4CBE5C0084CA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53D2FD621E4CBE5C0084CA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D2FD651E4CBE5C0084CA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53D2FD671E4CBE5C0084CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D2FD6C1E4CBE5C0084CA25 /* WulleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WulleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2FD701E4CBE5C0084CA25 /* WulleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WulleAppTests.swift; sourceTree = "<group>"; };
+		53D2FD721E4CBE5C0084CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D2FD771E4CBE5C0084CA25 /* WulleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WulleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2FD7B1E4CBE5C0084CA25 /* WulleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WulleAppUITests.swift; sourceTree = "<group>"; };
+		53D2FD7D1E4CBE5C0084CA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D2FD551E4CBE5B0084CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD691E4CBE5C0084CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD741E4CBE5C0084CA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D2FD4F1E4CBE5B0084CA25 = {
+			isa = PBXGroup;
+			children = (
+				53D2FD5A1E4CBE5C0084CA25 /* WulleApp */,
+				53D2FD6F1E4CBE5C0084CA25 /* WulleAppTests */,
+				53D2FD7A1E4CBE5C0084CA25 /* WulleAppUITests */,
+				53D2FD591E4CBE5C0084CA25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D2FD591E4CBE5C0084CA25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D2FD581E4CBE5C0084CA25 /* WulleApp.app */,
+				53D2FD6C1E4CBE5C0084CA25 /* WulleAppTests.xctest */,
+				53D2FD771E4CBE5C0084CA25 /* WulleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D2FD5A1E4CBE5C0084CA25 /* WulleApp */ = {
+			isa = PBXGroup;
+			children = (
+				53D2FD5B1E4CBE5C0084CA25 /* AppDelegate.swift */,
+				53D2FD5D1E4CBE5C0084CA25 /* ViewController.swift */,
+				53D2FD5F1E4CBE5C0084CA25 /* Main.storyboard */,
+				53D2FD621E4CBE5C0084CA25 /* Assets.xcassets */,
+				534F4E641E4CF98400894168 /* lügenwulle.jpg */,
+				534F4E661E4CFB6400894168 /* wullopinio.jpg */,
+				53D2FD641E4CBE5C0084CA25 /* LaunchScreen.storyboard */,
+				53D2FD671E4CBE5C0084CA25 /* Info.plist */,
+			);
+			path = WulleApp;
+			sourceTree = "<group>";
+		};
+		53D2FD6F1E4CBE5C0084CA25 /* WulleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D2FD701E4CBE5C0084CA25 /* WulleAppTests.swift */,
+				53D2FD721E4CBE5C0084CA25 /* Info.plist */,
+			);
+			path = WulleAppTests;
+			sourceTree = "<group>";
+		};
+		53D2FD7A1E4CBE5C0084CA25 /* WulleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53D2FD7B1E4CBE5C0084CA25 /* WulleAppUITests.swift */,
+				53D2FD7D1E4CBE5C0084CA25 /* Info.plist */,
+			);
+			path = WulleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D2FD571E4CBE5B0084CA25 /* WulleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2FD801E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleApp" */;
+			buildPhases = (
+				53D2FD541E4CBE5B0084CA25 /* Sources */,
+				53D2FD551E4CBE5B0084CA25 /* Frameworks */,
+				53D2FD561E4CBE5B0084CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WulleApp;
+			productName = WulleApp;
+			productReference = 53D2FD581E4CBE5C0084CA25 /* WulleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D2FD6B1E4CBE5C0084CA25 /* WulleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2FD831E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleAppTests" */;
+			buildPhases = (
+				53D2FD681E4CBE5C0084CA25 /* Sources */,
+				53D2FD691E4CBE5C0084CA25 /* Frameworks */,
+				53D2FD6A1E4CBE5C0084CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D2FD6E1E4CBE5C0084CA25 /* PBXTargetDependency */,
+			);
+			name = WulleAppTests;
+			productName = WulleAppTests;
+			productReference = 53D2FD6C1E4CBE5C0084CA25 /* WulleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53D2FD761E4CBE5C0084CA25 /* WulleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2FD861E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleAppUITests" */;
+			buildPhases = (
+				53D2FD731E4CBE5C0084CA25 /* Sources */,
+				53D2FD741E4CBE5C0084CA25 /* Frameworks */,
+				53D2FD751E4CBE5C0084CA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D2FD791E4CBE5C0084CA25 /* PBXTargetDependency */,
+			);
+			name = WulleAppUITests;
+			productName = WulleAppUITests;
+			productReference = 53D2FD771E4CBE5C0084CA25 /* WulleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D2FD501E4CBE5B0084CA25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nico Lazarus";
+				TargetAttributes = {
+					53D2FD571E4CBE5B0084CA25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8QG7VVA8V7;
+						ProvisioningStyle = Automatic;
+					};
+					53D2FD6B1E4CBE5C0084CA25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53D2FD571E4CBE5B0084CA25;
+					};
+					53D2FD761E4CBE5C0084CA25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53D2FD571E4CBE5B0084CA25;
+					};
+				};
+			};
+			buildConfigurationList = 53D2FD531E4CBE5B0084CA25 /* Build configuration list for PBXProject "WulleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D2FD4F1E4CBE5B0084CA25;
+			productRefGroup = 53D2FD591E4CBE5C0084CA25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D2FD571E4CBE5B0084CA25 /* WulleApp */,
+				53D2FD6B1E4CBE5C0084CA25 /* WulleAppTests */,
+				53D2FD761E4CBE5C0084CA25 /* WulleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D2FD561E4CBE5B0084CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534F4E671E4CFB6400894168 /* wullopinio.jpg in Resources */,
+				53D2FD661E4CBE5C0084CA25 /* LaunchScreen.storyboard in Resources */,
+				53D2FD631E4CBE5C0084CA25 /* Assets.xcassets in Resources */,
+				534F4E651E4CF98400894168 /* lügenwulle.jpg in Resources */,
+				53D2FD611E4CBE5C0084CA25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD6A1E4CBE5C0084CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD751E4CBE5C0084CA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D2FD541E4CBE5B0084CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2FD5E1E4CBE5C0084CA25 /* ViewController.swift in Sources */,
+				53D2FD5C1E4CBE5C0084CA25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD681E4CBE5C0084CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2FD711E4CBE5C0084CA25 /* WulleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2FD731E4CBE5C0084CA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2FD7C1E4CBE5C0084CA25 /* WulleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D2FD6E1E4CBE5C0084CA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D2FD571E4CBE5B0084CA25 /* WulleApp */;
+			targetProxy = 53D2FD6D1E4CBE5C0084CA25 /* PBXContainerItemProxy */;
+		};
+		53D2FD791E4CBE5C0084CA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D2FD571E4CBE5B0084CA25 /* WulleApp */;
+			targetProxy = 53D2FD781E4CBE5C0084CA25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53D2FD5F1E4CBE5C0084CA25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D2FD601E4CBE5C0084CA25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53D2FD641E4CBE5C0084CA25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D2FD651E4CBE5C0084CA25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D2FD7E1E4CBE5C0084CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D2FD7F1E4CBE5C0084CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D2FD811E4CBE5C0084CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QG7VVA8V7;
+				INFOPLIST_FILE = WulleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53D2FD821E4CBE5C0084CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QG7VVA8V7;
+				INFOPLIST_FILE = WulleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		53D2FD841E4CBE5C0084CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WulleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WulleApp.app/WulleApp";
+			};
+			name = Debug;
+		};
+		53D2FD851E4CBE5C0084CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WulleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WulleApp.app/WulleApp";
+			};
+			name = Release;
+		};
+		53D2FD871E4CBE5C0084CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WulleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WulleApp;
+			};
+			name = Debug;
+		};
+		53D2FD881E4CBE5C0084CA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WulleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NL.WulleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WulleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D2FD531E4CBE5B0084CA25 /* Build configuration list for PBXProject "WulleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2FD7E1E4CBE5C0084CA25 /* Debug */,
+				53D2FD7F1E4CBE5C0084CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2FD801E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2FD811E4CBE5C0084CA25 /* Debug */,
+				53D2FD821E4CBE5C0084CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2FD831E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2FD841E4CBE5C0084CA25 /* Debug */,
+				53D2FD851E4CBE5C0084CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2FD861E4CBE5C0084CA25 /* Build configuration list for PBXNativeTarget "WulleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2FD871E4CBE5C0084CA25 /* Debug */,
+				53D2FD881E4CBE5C0084CA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D2FD501E4CBE5B0084CA25 /* Project object */;
+}
