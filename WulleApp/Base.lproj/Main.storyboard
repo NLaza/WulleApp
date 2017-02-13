@@ -33,7 +33,21 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLb-pa-D3I">
-                                <rect key="frame" x="16" y="453" width="343" height="21"/>
+                                <rect key="frame" x="16" y="406" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iy1-rQ-a8F">
+                                <rect key="frame" x="163" y="448" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="luegenOnOff:" destination="BYZ-38-t0r" eventType="valueChanged" id="tgO-Wy-tcf"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lügen On/Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGN-kh-vSU">
+                                <rect key="frame" x="46" y="453" width="109" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -45,6 +59,7 @@
                     <connections>
                         <outlet property="imageView" destination="jVl-w1-gnH" id="MnD-y3-9U7"/>
                         <outlet property="label1" destination="uLb-pa-D3I" id="fpz-QD-jMf"/>
+                        <outlet property="luegenSwitch" destination="iy1-rQ-a8F" id="YL8-N9-1Bk"/>
                         <outlet property="sleppSwitch" destination="sCc-L4-et1" id="X4i-h4-ZrJ"/>
                     </connections>
                 </viewController>

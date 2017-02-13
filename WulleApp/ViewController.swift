@@ -9,15 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var luegenWulle = "/Users/N_Laza/Documents/Projects/WulleApp/WulleApp/lügenwulle.jpg"
+    var luegenWulle = "lügenwulle.jpg"
     var luegenImage: UIImage?
     
+    @IBOutlet weak var luegenSwitch: UISwitch!
 
     @IBOutlet weak var sleppSwitch: UISwitch!
     @IBOutlet weak var label1: UILabel!
     
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBAction func luegenOnOff(_ sender: Any) {
+        if( luegenSwitch.isOn == true) {
+            luegenSwitch.setOn(true, animated: true)
+        }
+        else {
+            luegenSwitch.setOn(true, animated: true)
+        }
+    }
     @IBAction func sleep(_ sender: Any) {
         if( sleppSwitch.isOn == true) {
             label1.text = "Wulle is awake"
@@ -30,7 +39,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label1.text = "Wulle is fat"
         luegenImage = UIImage(named: luegenWulle)
-         self.view.backgroundColor = UIColor(patternImage: luegenImage)
         imageView = UIImageView(image: luegenImage!)
         // Do any additional setup after loading the view, typically from a nib.
     }
